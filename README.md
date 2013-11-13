@@ -4,6 +4,8 @@ Adds support for multiparameter fields to mongoid 4.x series.
 
 # Sad story.
 
+[https://github.com/mongoid/mongoid/issues/2954](https://github.com/mongoid/mongoid/issues/2954)
+
 This is a sad story - mongoid maintainers decided to drop support for multiparamter fields in mongoid 4.x, leaving it to ActiveSupport/ActiveModel and rails. 
 
 Sadly there was no extraction of this feature ready after ror 4.x was released and since mongoid 4.x was the only version working with ror 4.x series this meant you could not update your application from ror 3.x to 4.x if you were using mongoid and you had date/time/datetime fields somewhere in your application. 
